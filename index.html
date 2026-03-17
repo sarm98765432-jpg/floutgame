@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+<link rel="stylesheet" href="style.css">
+<title>Flour Casino</title>
+</head>
+
+<body>
+
+<div id="app">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="logo">FLOUR 💎</div>
+    <div class="balance">💰 <span id="balance">0</span></div>
+  </div>
+
+  <!-- USER -->
+  <div class="user">
+    👤 <span id="username"></span>
+  </div>
+
+  <!-- MENU -->
+  <div class="menu">
+    <button onclick="openGame('coin')">Coin</button>
+    <button onclick="openGame('crash')">Crash</button>
+    <button onclick="openGame('mines')">Mines</button>
+    <button onclick="openGame('plinko')">Plinko</button>
+    <button onclick="openTop()">🏆 Топ</button>
+  </div>
+
+  <!-- GAME -->
+  <div id="game"></div>
+
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

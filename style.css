@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle, #0a0a0f, #000);
+  color: white;
+  font-family: Arial;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #111;
+  box-shadow: 0 0 20px #8a2be2;
+}
+
+.logo {
+  font-weight: bold;
+  color: #8a2be2;
+}
+
+.balance {
+  background: linear-gradient(45deg, #8a2be2, #00f0ff);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+button {
+  background: linear-gradient(45deg, #8a2be2, #00f0ff);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 0 10px #8a2be2;
+}
+
+#game {
+  padding: 20px;
+  text-align: center;
+}
